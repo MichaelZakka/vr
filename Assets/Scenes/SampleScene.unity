@@ -209,7 +209,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.78, y: 1, z: -25.77}
+  m_LocalPosition: {x: -5.78, y: 1, z: -43.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -420,8 +420,8 @@ Transform:
   m_GameObject: {fileID: 1272109599}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -417.4509, y: -0.0008, z: 12436.252}
-  m_LocalScale: {x: 526.276, y: 1, z: 2503.478}
+  m_LocalPosition: {x: 5686.746, y: -0.0008, z: 12717.16}
+  m_LocalScale: {x: 1747.131, y: 1, z: 2559.556}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -467,13 +467,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1788426894}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c39eb24015936a43a5d9666199b6c1c, type: 3}
+  m_Script: {fileID: 11500000, guid: 92d2100a83462e34fbd86f6008007f7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sphere: {fileID: 1240800757}
-  spawnRadius: 15
-  pos: {x: 0, y: 10, z: 0}
-  gravity: 9.8
+  particleRadius: 0.5
+  gasConstant: 287.05
+  referenceViscosity: 0.0000181
+  referenceTemperature: 293.15
+  sutherlandConstant: 110.4
+  ambientTemperature: 298.15
+  ambientPressure: 101325
+  spawnRadius: 5
+  windSpeed: 5
+  windStrength: 1
+  windFrequency: 1
+  gravity: 9.81
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

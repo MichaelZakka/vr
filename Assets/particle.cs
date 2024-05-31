@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Particle : MonoBehaviour
 {
-    public float pressure;
-    public float density;
-    public Vector3 viscosity;
 
-    public float mass;
-    public Vector3 currentForce;
-    public Vector3 velocity;
-    public Vector3 position;
     public GameObject sphere;
+    public Vector3 position;
+    public Vector3 velocity;
+    public float mass;
+    public float density;
+    public float pressure;
+    public Vector3 force;
 
     void Start()
     {
@@ -19,9 +18,11 @@ public class Particle : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
 }
+
+
 
 
